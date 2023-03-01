@@ -1,0 +1,75 @@
+#include <iostream> 
+using namespace std;
+#include <math.h>
+
+struct DadosEntrada { 
+// será armazenado número inteiros em cada entidade. 
+int A, B, C, D;
+}; 
+
+
+struct DadosSaida { 
+// será armazenado o resultado dos calcúlos..
+int produto1e3, produto2e4, soma2e4;
+}; 
+
+DadosEntrada lerDadosEntrada() { 
+    DadosEntrada entrada; 
+    cout << "Digite os valores de A, B, C e D: "; 
+    cin >> entrada.A >> entrada.B >> entrada.C >> entrada.D; 
+    return entrada; 
+} 
+
+DadosSaida calcularDadosSaida(DadosEntrada entrada) { 
+    DadosSaida saida; 
+    saida.produto1e3 = entrada.A * entrada.C; 
+    saida.produto2e4 = entrada.B * entrada.D; 
+    saida.soma2e4 = entrada.B + entrada.D; 
+    return saida; 
+} 
+
+void exibirDadosSaida(DadosSaida saida) { 
+cout << "O produto de A e C é de: " << saida.produto1e3 << endl; 
+cout << "O produto de B e D é de: " << saida.produto2e4 << endl; 
+cout << "A soma de B e D é de: " << saida.soma2e4 << endl; 
+} 
+int main() { 
+    
+    int opcao; 
+    DadosEntrada entrada; 
+    DadosSaida saida; 
+    do { 
+
+        cout << "Menu:\n"; 
+        cout << "1 - Ler dados de entrada\n"; 
+        cout << "2 - Calcular dados de saída\n"; 
+        cout << "3 - Exibir dados de saída\n"; 
+        cout << "4 - Sair\n"; 
+        cout << "Escolha uma opção: "; 
+        cin >> opcao; 
+
+        switch (opcao) { 
+              case 1: 
+                entrada = lerDadosEntrada(); 
+                 break; 
+              case 2: 
+                saida = calcularDadosSaida(entrada); 
+                cout << "Dados de saída calculados"; 
+                 break; 
+              case 3: 
+                exibirDadosSaida(saida); 
+                 break; 
+              case 4: 
+                cout << "Saindo do programa"; 
+                 break; 
+              default: 
+                cout << "Opção inválida. Tente novamente"; 
+
+        } 
+
+    } 
+     while (opcao != 4); 
+
+    return 0; 
+
+} 
