@@ -66,22 +66,22 @@ float vetorB[16];
   cout<<"-------------------------------------------" <<endl << endl;
    
   cout<<"O valor do vetorB [0] é de:" <<vetorA[0]*2 <<endl;
-  cout<<"O valor do vetorA [1] é de:" <<vetorA[1]*2 <<endl;
-  cout<<"O valor do vetorA [2] é de:" <<vetorA[2]*2 <<endl;
-  cout<<"O valor do vetorA [3] é de:" <<vetorA[3]*2 <<endl;
-  cout<<"O valor do vetorA [4] é de:" <<vetorA[4]*2 <<endl;
-  cout<<"O valor do vetorA [5] é de:" <<vetorA[5]*2 <<endl;
-  cout<<"O valor do vetorA [6] é de:" <<vetorA[6]*2 <<endl;
-  cout<<"O valor do vetorA [7] é de:" <<vetorA[7]*2 <<endl;
-  cout<<"O valor do vetorA [8] é de:" <<vetorA[8]*2 <<endl;
-  cout<<"O valor do vetorA [9] é de:" <<vetorA[9]*2 <<endl;
-  cout<<"O valor do vetorA [10] é de:" <<vetorA[10]*2 <<endl;
-  cout<<"O valor do vetorA [11] é de:" <<vetorA[11]*2 <<endl;
-  cout<<"O valor do vetorA [12] é de:" <<vetorA[12]*2 <<endl;
-  cout<<"O valor do vetorA [13] é de:" <<vetorA[13]*2 <<endl;
-  cout<<"O valor do vetorA [14] é de:" <<vetorA[14]*2 <<endl;
-  cout<<"O valor do vetorA [15] é de:" <<vetorA[15]*2 <<endl;
-  cout<<"O valor do vetorA [16] é de:" <<vetorA[16]*2 <<endl;
+  cout<<"O valor do vetorB [1] é de:" <<vetorA[1]*2 <<endl;
+  cout<<"O valor do vetorB [2] é de:" <<vetorA[2]*2 <<endl;
+  cout<<"O valor do vetorB [3] é de:" <<vetorA[3]*2 <<endl;
+  cout<<"O valor do vetorB [4] é de:" <<vetorA[4]*2 <<endl;
+  cout<<"O valor do vetorB [5] é de:" <<vetorA[5]*2 <<endl;
+  cout<<"O valor do vetorB [6] é de:" <<vetorA[6]*2 <<endl;
+  cout<<"O valor do vetorB [7] é de:" <<vetorA[7]*2 <<endl;
+  cout<<"O valor do vetorB [8] é de:" <<vetorA[8]*2 <<endl;
+  cout<<"O valor do vetorB [9] é de:" <<vetorA[9]*2 <<endl;
+  cout<<"O valor do vetorB [10] é de:" <<vetorA[10]*2 <<endl;
+  cout<<"O valor do vetorB [11] é de:" <<vetorA[11]*2 <<endl;
+  cout<<"O valor do vetorB [12] é de:" <<vetorA[12]*2 <<endl;
+  cout<<"O valor do vetorB [13] é de:" <<vetorA[13]*2 <<endl;
+  cout<<"O valor do vetorB [14] é de:" <<vetorA[14]*2 <<endl;
+  cout<<"O valor do vetorB [15] é de:" <<vetorA[15]*2 <<endl;
+  cout<<"O valor do vetorB [16] é de:" <<vetorA[16]*2 <<endl;
   
 return 0;
 }
