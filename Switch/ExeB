@@ -1,0 +1,49 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+// b)  Ler 8 elementos em uma matriz A tipo vetor. Construir uma matriz B de mesma dimensão com os elementos  da  matriz  A  multiplicados  por  3.  O  elemento  B[i]  deverá  ser  implicado  pelo  elemento A[i]*3, o elemento B[2] implicado pelo elemento A[2]*3 e assim por diante, até 8. Apresentar o vetor B.
+int main() {
+int vetorA[7];
+float vetorB[7];
+
+    cout<<"Digite o valor para o vetor A : ";
+    cin>>vetorA[0];
+    cout<<"Digite o valor para o vetor A : "; 
+    cin>>vetorA[1];
+    cout<<"Digite o valor para o vetor A : ";
+    cin>>vetorA[2];
+    cout<<"Digite o valor para o vetor A : ";
+    cin>>vetorA[3];
+    cout<<"Digite o valor para o vetor A : ";
+    cin>>vetorA[4];
+    cout<<"Digite o valor para o vetor A : ";
+    cin>>vetorA[5];
+    cout<<"Digite o valor para o vetor A : ";
+    cin>>vetorA[6];
+    cout<<"Digite o valor para o vetor A : ";
+    cin>>vetorA[7];
+    
+    cout<<"-------------------------------------------" <<endl << endl;
+   
+  cout<<"O valor do vetorA [0] é de:" <<vetorA[0] <<endl;
+  cout<<"O valor do vetorA [1] é de:" <<vetorA[1] <<endl;
+  cout<<"O valor do vetorA [2] é de:" <<vetorA[2] <<endl;
+  cout<<"O valor do vetorA [3] é de:" <<vetorA[3] <<endl;
+  cout<<"O valor do vetorA [4] é de:" <<vetorA[4] <<endl;
+  cout<<"O valor do vetorA [5] é de:" <<vetorA[5] <<endl;
+  cout<<"O valor do vetorA [6] é de:" <<vetorA[6] <<endl;
+  cout<<"O valor do vetorA [7] é de:" <<vetorA[7] <<endl;
+  
+  cout<<"-------------------------------------------" <<endl << endl;
+   
+  cout<<"O valor do vetorB [0] é de:" <<vetorA[0]*3 <<endl;
+  cout<<"O valor do vetorA [1] é de:" <<vetorA[1]*3 <<endl;
+  cout<<"O valor do vetorA [2] é de:" <<vetorA[2]*3 <<endl;
+  cout<<"O valor do vetorA [3] é de:" <<vetorA[3]*3 <<endl;
+  cout<<"O valor do vetorA [4] é de:" <<vetorA[4]*3 <<endl;
+  cout<<"O valor do vetorA [5] é de:" <<vetorA[5]*3 <<endl;
+  cout<<"O valor do vetorA [6] é de:" <<vetorA[6]*3 <<endl;
+  cout<<"O valor do vetorA [7] é de:" <<vetorA[7]*3 <<endl;
+return 0;
+} 
