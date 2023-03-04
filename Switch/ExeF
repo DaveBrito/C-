@@ -155,16 +155,16 @@ int vetorA[19],vetorB[29], vetorC[49];
   cout<<"O valor do vetorB [17] é de:" <<vetorB[17] <<endl;
   cout<<"O valor do vetorB [18] é de:" <<vetorB[18] <<endl;
   cout<<"O valor do vetorB [19] é de:" <<vetorB[19] <<endl;
-  cout<<"O valor do vetorB [19] é de:" <<vetorB[20] <<endl;
-  cout<<"O valor do vetorB [19] é de:" <<vetorB[21] <<endl;
-  cout<<"O valor do vetorB [19] é de:" <<vetorB[22] <<endl;
-  cout<<"O valor do vetorB [19] é de:" <<vetorB[23] <<endl;
-  cout<<"O valor do vetorB [19] é de:" <<vetorB[24] <<endl;
-  cout<<"O valor do vetorB [19] é de:" <<vetorB[25] <<endl;
-  cout<<"O valor do vetorB [19] é de:" <<vetorB[26] <<endl;
-  cout<<"O valor do vetorB [19] é de:" <<vetorB[27] <<endl;
-  cout<<"O valor do vetorB [19] é de:" <<vetorB[28] <<endl;
-  cout<<"O valor do vetorB [19] é de:" <<vetorB[29] <<endl;
+  cout<<"O valor do vetorB [20] é de:" <<vetorB[20] <<endl;
+  cout<<"O valor do vetorB [21] é de:" <<vetorB[21] <<endl;
+  cout<<"O valor do vetorB [22] é de:" <<vetorB[22] <<endl;
+  cout<<"O valor do vetorB [23] é de:" <<vetorB[23] <<endl;
+  cout<<"O valor do vetorB [24] é de:" <<vetorB[24] <<endl;
+  cout<<"O valor do vetorB [25] é de:" <<vetorB[25] <<endl;
+  cout<<"O valor do vetorB [26] é de:" <<vetorB[26] <<endl;
+  cout<<"O valor do vetorB [27] é de:" <<vetorB[27] <<endl;
+  cout<<"O valor do vetorB [28] é de:" <<vetorB[28] <<endl;
+  cout<<"O valor do vetorB [29] é de:" <<vetorB[29] <<endl;
   
   
   
