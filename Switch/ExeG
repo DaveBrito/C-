@@ -1,0 +1,98 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+//  g)   Ler 20 elementos de uma matriz A tipo vetor e construir uma matriz B de mesma dimensão com os mesmo elementos da matriz A, sendo que deverão estar invertidos. Ou seja, o primeiro elemento de A  passa  a  ser  o  último  de  B,  o  segundo  elemento  de  A  passa  a  ser  o  penúltimo  elemento  de  B  e assim por diante. Apresentar as matrizes A e B lado a lado. 
+int main() {
+int vetorA[19],vetorB[19];
+
+    cout<<"Digite o valor para o vetor A : ";
+    cin>>vetorA[0];
+    cout<<"Digite o valor para o vetor A : "; 
+    cin>>vetorA[1];
+    cout<<"Digite o valor para o vetor A : ";
+    cin>>vetorA[2];
+    cout<<"Digite o valor para o vetor A : ";
+    cin>>vetorA[3];
+    cout<<"Digite o valor para o vetor A : ";
+    cin>>vetorA[4];
+    cout<<"Digite o valor para o vetor A : ";
+    cin>>vetorA[5];
+    cout<<"Digite o valor para o vetor A : ";
+    cin>>vetorA[6];
+    cout<<"Digite o valor para o vetor A : ";
+    cin>>vetorA[7];
+    cout<<"Digite o valor para o vetor A : ";
+    cin>>vetorA[8];
+    cout<<"Digite o valor para o vetor A : ";
+    cin>>vetorA[9];
+    cout<<"Digite o valor para o vetor A : ";
+    cin>>vetorA[10];
+    cout<<"Digite o valor para o vetor A : ";
+    cin>>vetorA[11];
+    cout<<"Digite o valor para o vetor A : ";
+    cin>>vetorA[12];
+    cout<<"Digite o valor para o vetor A : ";
+    cin>>vetorA[13];
+    cout<<"Digite o valor para o vetor A : ";
+    cin>>vetorA[14];
+    cout<<"Digite o valor para o vetor A : ";
+    cin>>vetorA[15];
+    cout<<"Digite o valor para o vetor A : ";
+    cin>>vetorA[16];
+    cout<<"Digite o valor para o vetor A : ";
+    cin>>vetorA[17];
+    cout<<"Digite o valor para o vetor A : ";
+    cin>>vetorA[18];
+    cout<<"Digite o valor para o vetor A : ";
+    cin>>vetorA[19];
+    
+    
+    cout<<"-------------------------------------------" <<endl << endl;
+   
+  cout<<"O valor do vetorA [0] é de:" <<vetorA[0] <<endl;
+  cout<<"O valor do vetorA [1] é de:" <<vetorA[1] <<endl;
+  cout<<"O valor do vetorA [2] é de:" <<vetorA[2] <<endl;
+  cout<<"O valor do vetorA [3] é de:" <<vetorA[3] <<endl;
+  cout<<"O valor do vetorA [4] é de:" <<vetorA[4] <<endl;
+  cout<<"O valor do vetorA [5] é de:" <<vetorA[5] <<endl;
+  cout<<"O valor do vetorA [6] é de:" <<vetorA[6] <<endl;
+  cout<<"O valor do vetorA [7] é de:" <<vetorA[7] <<endl;
+  cout<<"O valor do vetorA [8] é de:" <<vetorA[8] <<endl;
+  cout<<"O valor do vetorA [9] é de:" <<vetorA[9] <<endl;
+  cout<<"O valor do vetorA [10] é de:" <<vetorA[10] <<endl;
+  cout<<"O valor do vetorA [11] é de:" <<vetorA[11] <<endl;
+  cout<<"O valor do vetorA [12] é de:" <<vetorA[12] <<endl;
+  cout<<"O valor do vetorA [13] é de:" <<vetorA[13] <<endl;
+  cout<<"O valor do vetorA [14] é de:" <<vetorA[14] <<endl;
+  cout<<"O valor do vetorA [15] é de:" <<vetorA[15] <<endl;
+  cout<<"O valor do vetorA [16] é de:" <<vetorA[16] <<endl;
+  cout<<"O valor do vetorA [17] é de:" <<vetorA[17] <<endl;
+  cout<<"O valor do vetorA [18] é de:" <<vetorA[18] <<endl;
+  cout<<"O valor do vetorA [19] é de:" <<vetorA[19] <<endl;
+  
+  cout<<"-------------------------------------------" <<endl << endl;
+   
+  cout<<"O valor do vetorB [19] é de:" <<vetorA[19] <<endl;
+  cout<<"O valor do vetorB [18] é de:" <<vetorA[18] <<endl;
+  cout<<"O valor do vetorB [17] é de:" <<vetorA[17] <<endl;
+  cout<<"O valor do vetorB [16] é de:" <<vetorA[16] <<endl;
+  cout<<"O valor do vetorB [15] é de:" <<vetorA[15] <<endl;
+  cout<<"O valor do vetorB [14] é de:" <<vetorA[14] <<endl;
+  cout<<"O valor do vetorB [13] é de:" <<vetorA[13] <<endl;
+  cout<<"O valor do vetorB [12] é de:" <<vetorA[12] <<endl;
+  cout<<"O valor do vetorB [11] é de:" <<vetorA[11] <<endl;
+  cout<<"O valor do vetorB [10] é de:" <<vetorA[10] <<endl;
+  cout<<"O valor do vetorB [9] é de:" <<vetorA[9] <<endl;
+  cout<<"O valor do vetorB [8] é de:" <<vetorA[8] <<endl;
+  cout<<"O valor do vetorB [7] é de:" <<vetorA[7] <<endl;
+  cout<<"O valor do vetorB [6] é de:" <<vetorA[6] <<endl;
+  cout<<"O valor do vetorB [5] é de:" <<vetorA[5] <<endl;
+  cout<<"O valor do vetorB [4] é de:" <<vetorA[4] <<endl;
+  cout<<"O valor do vetorB [3] é de:" <<vetorA[3] <<endl;
+  cout<<"O valor do vetorB [2] é de:" <<vetorA[2] <<endl;
+  cout<<"O valor do vetorB [1] é de:" <<vetorA[1] <<endl;
+  cout<<"O valor do vetorB [0] é de:" <<vetorB[0] <<endl;
+ 
+  
+return 0;
+} 
