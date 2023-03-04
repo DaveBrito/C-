@@ -1,0 +1,87 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+// d)   Ler  15  elementos  de  uma  matriz  tipo  vetor.  Construir  uma matriz  B  de  mesmo  tipo,  observando  a seguintes  lei  de  formação:  “Todo  elemento  de  B  deverá  ser  o  quadrado  do  elemento  de  A correspondente”. Apresentar as matrizes A e B.
+
+int main() {
+int vetorA[16];
+float vetorB[16];
+
+    cout<<"Digite o valor para o vetor A : ";
+    cin>>vetorA[0];
+    cout<<"Digite o valor para o vetor A : "; 
+    cin>>vetorA[1];
+    cout<<"Digite o valor para o vetor A : ";
+    cin>>vetorA[2];
+    cout<<"Digite o valor para o vetor A : ";
+    cin>>vetorA[3];
+    cout<<"Digite o valor para o vetor A : ";
+    cin>>vetorA[4];
+    cout<<"Digite o valor para o vetor A : ";
+    cin>>vetorA[5];
+    cout<<"Digite o valor para o vetor A : ";
+    cin>>vetorA[6];
+    cout<<"Digite o valor para o vetor A : ";
+    cin>>vetorA[7];
+    cout<<"Digite o valor para o vetor A : ";
+    cin>>vetorA[8];
+    cout<<"Digite o valor para o vetor A : ";
+    cin>>vetorA[9];
+    cout<<"Digite o valor para o vetor A : ";
+    cin>>vetorA[10];
+    cout<<"Digite o valor para o vetor A : ";
+    cin>>vetorA[11];
+    cout<<"Digite o valor para o vetor A : ";
+    cin>>vetorA[12];
+    cout<<"Digite o valor para o vetor A : ";
+    cin>>vetorA[13];
+    cout<<"Digite o valor para o vetor A : ";
+    cin>>vetorA[14];
+    cout<<"Digite o valor para o vetor A : ";
+    cin>>vetorA[15];
+    cout<<"Digite o valor para o vetor A : ";
+    cin>>vetorA[16];
+    
+    cout<<"-------------------------------------------" <<endl << endl;
+   
+  cout<<"O valor do vetorA [0] é de:" <<vetorA[0] <<endl;
+  cout<<"O valor do vetorA [1] é de:" <<vetorA[1] <<endl;
+  cout<<"O valor do vetorA [2] é de:" <<vetorA[2] <<endl;
+  cout<<"O valor do vetorA [3] é de:" <<vetorA[3] <<endl;
+  cout<<"O valor do vetorA [4] é de:" <<vetorA[4] <<endl;
+  cout<<"O valor do vetorA [5] é de:" <<vetorA[5] <<endl;
+  cout<<"O valor do vetorA [6] é de:" <<vetorA[6] <<endl;
+  cout<<"O valor do vetorA [7] é de:" <<vetorA[7] <<endl;
+  cout<<"O valor do vetorA [8] é de:" <<vetorA[8] <<endl;
+  cout<<"O valor do vetorA [9] é de:" <<vetorA[9] <<endl;
+  cout<<"O valor do vetorA [10] é de:" <<vetorA[10] <<endl;
+  cout<<"O valor do vetorA [11] é de:" <<vetorA[11] <<endl;
+  cout<<"O valor do vetorA [12] é de:" <<vetorA[12] <<endl;
+  cout<<"O valor do vetorA [13] é de:" <<vetorA[13] <<endl;
+  cout<<"O valor do vetorA [14] é de:" <<vetorA[14] <<endl;
+  cout<<"O valor do vetorA [15] é de:" <<vetorA[15] <<endl;
+  cout<<"O valor do vetorA [16] é de:" <<vetorA[16] <<endl;
+  
+  cout<<"-------------------------------------------" <<endl << endl;
+   
+  cout<<"O valor do vetorB [0] é de:" <<vetorA[0]*2 <<endl;
+  cout<<"O valor do vetorA [1] é de:" <<vetorA[1]*2 <<endl;
+  cout<<"O valor do vetorA [2] é de:" <<vetorA[2]*2 <<endl;
+  cout<<"O valor do vetorA [3] é de:" <<vetorA[3]*2 <<endl;
+  cout<<"O valor do vetorA [4] é de:" <<vetorA[4]*2 <<endl;
+  cout<<"O valor do vetorA [5] é de:" <<vetorA[5]*2 <<endl;
+  cout<<"O valor do vetorA [6] é de:" <<vetorA[6]*2 <<endl;
+  cout<<"O valor do vetorA [7] é de:" <<vetorA[7]*2 <<endl;
+  cout<<"O valor do vetorA [8] é de:" <<vetorA[8]*2 <<endl;
+  cout<<"O valor do vetorA [9] é de:" <<vetorA[9]*2 <<endl;
+  cout<<"O valor do vetorA [10] é de:" <<vetorA[10]*2 <<endl;
+  cout<<"O valor do vetorA [11] é de:" <<vetorA[11]*2 <<endl;
+  cout<<"O valor do vetorA [12] é de:" <<vetorA[12]*2 <<endl;
+  cout<<"O valor do vetorA [13] é de:" <<vetorA[13]*2 <<endl;
+  cout<<"O valor do vetorA [14] é de:" <<vetorA[14]*2 <<endl;
+  cout<<"O valor do vetorA [15] é de:" <<vetorA[15]*2 <<endl;
+  cout<<"O valor do vetorA [16] é de:" <<vetorA[16]*2 <<endl;
+  
+return 0;
+}
