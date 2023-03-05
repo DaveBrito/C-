@@ -38,12 +38,12 @@ float vetorB[7];
   cout<<"-------------------------------------------" <<endl << endl;
    
   cout<<"O valor do vetorB [0] é de:" <<vetorA[0]*3 <<endl;
-  cout<<"O valor do vetorA [1] é de:" <<vetorA[1]*3 <<endl;
-  cout<<"O valor do vetorA [2] é de:" <<vetorA[2]*3 <<endl;
-  cout<<"O valor do vetorA [3] é de:" <<vetorA[3]*3 <<endl;
-  cout<<"O valor do vetorA [4] é de:" <<vetorA[4]*3 <<endl;
-  cout<<"O valor do vetorA [5] é de:" <<vetorA[5]*3 <<endl;
-  cout<<"O valor do vetorA [6] é de:" <<vetorA[6]*3 <<endl;
-  cout<<"O valor do vetorA [7] é de:" <<vetorA[7]*3 <<endl;
+  cout<<"O valor do vetorB [1] é de:" <<vetorA[1]*3 <<endl;
+  cout<<"O valor do vetorB [2] é de:" <<vetorA[2]*3 <<endl;
+  cout<<"O valor do vetorB [3] é de:" <<vetorA[3]*3 <<endl;
+  cout<<"O valor do vetorB [4] é de:" <<vetorA[4]*3 <<endl;
+  cout<<"O valor do vetorB [5] é de:" <<vetorA[5]*3 <<endl;
+  cout<<"O valor do vetorB [6] é de:" <<vetorA[6]*3 <<endl;
+  cout<<"O valor do vetorB [7] é de:" <<vetorA[7]*3 <<endl;
 return 0;
 } 
