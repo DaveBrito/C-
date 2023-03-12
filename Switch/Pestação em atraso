@@ -1,0 +1,48 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    const int N = 5; // quantidade de prestações
+
+    float valor_principal[N];
+    int dias[N];
+    float valor_pagar[N];
+
+    int opcao;
+    do {
+        cout << "MENU" << endl;
+        cout << "1 - Calcular valor de prestação em atraso" << endl;
+        cout << "2 - Imprimir tabela de valores" << endl;
+        cout << "0 - Sair" << endl;
+        cout << "Digite a opção desejada: ";
+        cin >> opcao;
+
+        switch (opcao) {
+            case 1:
+                for (int i = 0; i < N; i++) {
+                    cout << "Digite o valor principal da prestação " << i+1 << ": ";
+                    cin >> valor_principal[i];
+                    cout << "Digite a quantidade de dias em atraso da prestação " << i+1 << ": ";
+                    cin >> dias[i];
+                    valor_pagar[i] = valor_principal[i] * 1.02 + valor_principal[i] * 0.01 * dias[i];
+                    cout << "Valor a pagar: " << valor_pagar[i] << endl;
+                }
+                break;
+            case 2:
+                cout << "Tabela de valores:" << endl;
+                cout << "Prestação\tValor Principal\tDias em Atraso\tValor a Pagar" << endl;
+                for (int i = 0; i < N; i++) {
+                    cout << i+1 << "\t\t" << valor_principal[i] << "\t\t" << dias[i] << "\t\t" << valor_pagar[i] << endl;
+                }
+                break;
+            case 0:
+                cout << "Encerrando o programa..." << endl;
+                break;
+            default:
+                cout << "Opção inválida. Tente novamente." << endl;
+        }
+
+    } while (opcao != 0);
+
+    return 0;
+}
