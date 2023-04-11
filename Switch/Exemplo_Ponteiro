@@ -1,0 +1,124 @@
+
+#include <iostream>
+#define  n 2
+using namespace std;
+
+
+typedef struct registro tb;
+
+
+struct registro{
+    string nome[n];
+    string sexo[n];
+    int idade[n];
+    double salario[n];
+}
+
+registro tb; 
+registro *ptb = &tb;
+int linha = -1;
+
+
+int lerNome() {
+    string nome;
+    cout<<"\nDigite o nome do usuário: ";
+    cin>> nome;
+}
+
+int lerSexo() {
+    string sexo;
+    cout<<"\nDigite o sexo do usuário: ";
+    cin>> sexo;
+}
+
+int lerIdade() {
+    int idade;
+    cout<<"\nDigite a idade do usuário: ";
+    cin>> idade;
+}   
+    
+int lerSalario() {
+    double salario;
+    cout<<"\nDigite o salário do usuário: ";
+    cin>> salario;
+}    
+
+double getAumento(double * salario) {
+    return(10% * salario);
+}
+
+void NovaLinhaStruct() {
+int lerNome;
+int lerSexo;
+int lerIdade;
+int lerSalario;
+
+    if(linha == -1) return;
+    
+linha++;
+cout<<"\nNome salvo com sucesso..";
+cin>> lerNome();
+ptb-> n1 [linha] = lerNome();
+
+cout<<"\nSexo do usuário salvo com sucesso...";
+cin>>lerSexo();
+ptb-> n2 [linha] = lerSexo();
+
+cout<<"\nIdade do usuário salvo com sucesso...";
+cin>>lerIdade();
+ptb-> n3 [linha] = lerIdade();
+
+cout<<"\nSalário do usuário salvo com sucesso...";
+cin>>lerSalario();
+ptb-> n4 [linha] = lerSalario();
+}
+
+int tela() {
+    int tecla;
+    cout <<"\nMenu\1 Ler linha\2 Mostrar\3 Sair";
+    cin>> tecla;
+    return tecla;
+}
+
+
+
+void listarLinhaStruct() {
+int tela;
+    
+    do {
+        telca = tela();
+        switch(tecla) {
+            
+        case 1:
+        nome = lerNome();
+        sexo = lerSexo();
+        idade = lerIdade();
+        salario = getAumento();
+        cout <<"\nO nome do usuário é  "<<nome <<endl;
+        cout<<"\nO sexo do usuário é  "<<sexo <<endl;
+        cout <<"\nA idade do usuário é  "<<nome <<endl;
+        cout<<"\nO salario do usuário é  "<<sexo <<endl;
+        break;
+        case 2:
+        
+        break;
+        case 3:
+        Sair(0);
+        break;
+        } while (tecla  != 4);
+         cout << "\nEncerrando o programa..\n";
+    }    
+    
+    
+    
+}
+
+
+int main()
+{
+getAumento(double * salario);
+NovaLinhaStruct();
+listarLinhaStruct();
+return 0;
+}
+
