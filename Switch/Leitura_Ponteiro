@@ -1,0 +1,83 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+const int n = 2;
+
+struct Tabela {
+    string nome[n];
+    char sexo[n];
+    int idade[n];
+    double salario[n];
+};
+
+Tabela tb; 
+int linha = -1; 
+
+double getAumento(double salario) {
+    return salario * 1.1;
+}
+
+void NovaLinhaStruct() {
+    if (linha == n - 1) {
+        cout << "\nTabela cheia\n";
+        return;
+    }
+    
+    linha++;
+    cout << "\nDigite os dados do usuário " << linha + 1 << "\n";
+    cout<<"\nDigite o nome do usuário: ";
+    cin >> tb.nome[linha];
+    cout<<"\nEscreva o sexo do usuário: ";
+    cin >> tb.sexo[linha];
+    cout<<"\nDigite a idade do usuário: ";
+    cin >> tb.idade[linha];
+    cout<<"\nDigite o salario do usuário: ";
+    cin >> tb.salario[linha];
+    
+}
+
+int tela() {
+    int tecla;
+    cout << "\nMenu\n1 Ler linha\n2 Mostrar\n3 Sair\n";
+    cin >> tecla;
+    return tecla;
+}
+
+void listarLinhaStruct() {
+    int tecla;
+    
+    do {
+        tecla = tela();
+        switch(tecla) {
+            case 1: {
+                NovaLinhaStruct();
+                break;
+            }
+            case 2: {
+                for (int i = 0; i <= linha; i++) {
+                    cout << "\nDados do usuário " << i + 1 << "\n";
+                    cout << "Nome: " << tb.nome[i] << "\n";
+                    cout << "Sexo: " << tb.sexo[i] << "\n";
+                    cout << "Idade: " << tb.idade[i] << "\n";
+                    cout << "Salário: " << tb.salario[i] << "\n";
+                    cout << "Aumento: " << getAumento(tb.salario[i]) <<"\n";
+                }
+                break;
+            }
+            case 3: {
+                cout << "\nEncerrando o programa..\n";
+                exit(0);
+            }
+            default: {
+                cout << "\nOpção inválida\n";
+                break;
+            }
+        }
+    } while (tecla != 3);
+}
+
+int main() {
+    listarLinhaStruct();
+    return 0;
+}
