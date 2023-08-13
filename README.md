@@ -1,2 +1,2 @@
 # C++
-Algumas aplicações feitas na linguagem c++
+Aplicações feitas na linguagem c++
